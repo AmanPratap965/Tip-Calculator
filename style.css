@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+
+}
+body{
+    background: #8990ec;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+main{
+    height: 625px;
+    width: 460px;
+    color: white;
+    background: #272639;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+    color: rgb(171, 171, 243);
+    text-decoration:wavy;
+}
+#topContainer{
+    margin-top: 2rem;
+}
+.container{
+   margin-top: 1.4rem;
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.inputContainer{
+    background-color:  #353959;
+    color: white;
+    border-radius: 1.4rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+#billTotalInput, #tipInput{
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    padding: none;
+    background-color: transparent;
+}
+
+.buttonContainer{
+    background-color: #8990ec;
+    display: grid;
+    place-items: center;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 0.8rem;
+
+}
+.splitButton{
+    background: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonText{
+    color: black !important;
+}
+#numberOfPeople{
+    font-size: 1.6rem;
+}
+.controls{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+#bottomContainer{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+#perPersonTotal{
+    text-align: center;
+    font-size: 2.5rem;
+}
